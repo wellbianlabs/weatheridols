@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-primary: #745c00;
+  --color-primary-container: #f5ce53;
+  --color-primary-dim: #665100;
+  --color-on-primary-container: #584500;
+  
+  --color-secondary: #5c5d75;
+  --color-secondary-container: #e0e0fc;
+  
+  --color-tertiary: #7b3fbb;
+  --color-tertiary-container: #d1a7ff;
+  
+  --color-surface: #f8f9fa;
+  --color-surface-container-low: #f2f4f5;
+  --color-surface-container-high: #e5e9eb;
+  --color-on-surface: #2e3335;
+  --color-on-surface-variant: #5a6062;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-on-surface bg-white;
+  }
+}
+
+.headline-glow {
+  text-shadow: 0 4px 12px rgba(0,0,0,0.3), 0 0 40px rgba(245, 206, 83, 0.2);
+}
+
+.sub-glow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.prism-gradient {
+  background: linear-gradient(135deg, rgba(116, 92, 0, 0.05) 0%, rgba(123, 63, 187, 0.05) 50%, rgba(245, 206, 83, 0.05) 100%);
+}
+
+.soft-prism-bg {
+  background: linear-gradient(180deg, #ffffff 0%, #fcf9ff 100%);
+}
