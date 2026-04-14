@@ -524,7 +524,7 @@ const Hero = ({ lang }: { lang: Language }) => {
               <span className="text-xs font-bold text-white group-hover:text-primary-container transition-colors">Apple Music</span>
             </a>
             <a 
-              href="https://music.youtube.com/channel/UCa-1X2fR15hrCH-wb5r49mg?si=JT4IRYfbM7CppBYN"
+              href="https://www.youtube.com/channel/UCa-1X2fR15hrCH-wb5r49mg"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:scale-105 transition-transform group"
@@ -838,7 +838,7 @@ const Streaming = ({ lang }: { lang: Language }) => {
               name: 'YouTube Music', 
               color: 'bg-[#FF0000]', 
               icon: <Youtube className="fill-current" />,
-              url: 'https://music.youtube.com/channel/UCa-1X2fR15hrCH-wb5r49mg?si=JT4IRYfbM7CppBYN'
+              url: 'https://www.youtube.com/channel/UCa-1X2fR15hrCH-wb5r49mg'
             },
             { 
               name: 'Apple Music', 
