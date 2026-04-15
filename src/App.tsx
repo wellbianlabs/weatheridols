@@ -41,7 +41,7 @@ const MEMBERS: Member[] = [
   {
     id: 'sunny',
     name: 'Sunny',
-    image: 'https://lh3.googleusercontent.com/aida/ADBb0ujTYrtPcnkfL1dRVCo0zuoDMwD6OCbwdo51_GenCpSGNNL5HFJRoNKjWDRq1SGiU_mVUK8ZCeZn9TwFFEDBciB5U06GGGVtgRygb94dOpKsJad6QCvFxdFf2FZRSoqfuHJu7l_Sx9KqEGYRMVe-DEukjnTOT0npPPVdviqM0MJ5XLf16w6LbBBD79l_C0jd5emco4AKLORUrSKnYat8NvuPBcRb7826tfhauoTfqMRHSCGKySw5fqthXWL0AxCOZCpYlJzPgPaOEQ',
+    image: '/images/Sunny.jpg',
     description: {
       en: 'As the leader and the "Sun" of the group, SUNNY illuminates the stage with her dazzling smile and golden charisma. Much like a clear sky after a long winter, her powerful yet warm vocals bring comfort and energy to listeners worldwide. She embodies the bright, unwavering spirit of Weather Idols, guiding the group with her brilliant presence.',
       ko: '그룹의 리더이자 "태양"인 써니는 눈부신 미소와 황금빛 카리스마로 무대를 밝힙니다. 긴 겨울 끝의 맑은 하늘처럼, 그녀의 파워풀하면서도 따뜻한 보컬은 전 세계 리스너들에게 위로와 에너지를 선사합니다. 그녀는 웨더 아이돌의 밝고 흔들림 없는 정신을 상징하며, 찬란한 존재감으로 그룹을 이끕니다.'
@@ -51,7 +51,7 @@ const MEMBERS: Member[] = [
   {
     id: 'rain',
     name: 'Rain',
-    image: 'https://lh3.googleusercontent.com/aida/ADBb0ugZP5QQ6WJ5q_MKSMIb5FO5sN7f-3gsoIGpUh_5lXD-DI5rgyxzr1606-SofRp9YFW9x883Tk37AEe4pnrlfbJYfwY-L3vQ3kiQkF-evFmedqHSapzTZKicF2PVIPXJdtnhgnOuK5xIY6bAn8KlhzQPNNuYYHMvSkMYLqxMqTQwdLLlUdCMaVoU2Hav6asXsR2QonR5_vsOwfjV5Ct7kxXcYv1GyIEkaPEv4O6eVqK34pSCfN0L-2y9xtBC_Yv-XCvNM0tNgDucMYc',
+    image: '/images/Rain.jpg',
     description: {
       en: 'RAIN captivates the audience with her deep, emotive voice and elegant aura. Representing the refreshing and transformative power of a summer shower, she brings a sense of calm and depth to the group’s discography. Her sophisticated style and soulful performances flow like a rhythmic rainfall, touching the hearts of fans across the globe.',
       ko: '레인은 깊고 감성적인 목소리와 우아한 아우라로 관객을 사로잡습니다. 여름 소나기의 상쾌하고 변화무쌍한 힘을 상징하는 그녀는 그룹의 디스코그래피에 평온함과 깊이를 더합니다. 그녀의 세련된 스타일과 소울풀한 퍼포먼스는 리드미컬한 빗줄기처럼 흘러 전 세계 팬들의 마음을 적십니다.'
@@ -61,7 +61,7 @@ const MEMBERS: Member[] = [
   {
     id: 'cloudy',
     name: 'Cloudy',
-    image: 'https://lh3.googleusercontent.com/aida/ADBb0uhxbmtGvEJ-oazOnWevQofvwHyzXJTnqzRGnX7M9ErJ1_cLzEvfWpukodAGuRiI6prhDbUfLgQeIGRwkWCLxHsDH7T1s_xt74P4Hnj8gGgy37oqaeIlZMKLadhWpnCCc5x9jWuyR0JSdsJHg1VF89YFNZOd4bs_UKlEE5kTSdN-JXcxlUsX-T225Fszx81n-Aa2HWBVebOzflihtX2500_VLyYSx8KfxvGnSNOZGRqryHuS-MbcD_VkCQIJZBI8612bROz_9pB5tL8',
+    image: '/images/Cloudy.jpg',
     description: {
       en: 'With her ethereal blue aesthetic and dreamy gaze, CLOUDY represents the boundless possibilities of the sky. Her unique, airy vocal tone feels like floating among soft clouds on a breezy afternoon. She is the group\'s creative spark, blending mystery and softness to create a heavenly atmosphere in every performance.',
       ko: '천상계의 블루 에스테틱과 몽환적인 눈빛을 가진 클라우디는 하늘의 무한한 가능성을 상징합니다. 그녀의 독특하고 공기 같은 보컬 톤은 산들바람 부는 오후의 부드러운 구름 사이를 떠다니는 듯한 느낌을 줍니다. 그녀는 그룹의 창의적인 불꽃으로, 신비로움과 부드러움을 결합하여 모든 공연에서 천국 같은 분위기를 조성합니다.'
@@ -71,7 +71,7 @@ const MEMBERS: Member[] = [
   {
     id: 'thunder',
     name: 'Thunder',
-    image: 'https://lh3.googleusercontent.com/aida/ADBb0uiqeoUVj-Jkr6CDPQ7PThA9EOtrhUklH2jI7ESRsQJ4bjWwQa3dl283q_-x7sLbg9PuB3YX2QrkAw5YATYGaqTg6Kz-ujIuLkM96_l9C-vnqW3TKvIiRveQtaI40qzK5r_n4lVSikHK2n3que8q7dIpwDbON7vRLMkho8Rxn0pubZP9_1o_m5I55xS_NPleLUKsdfa_Yo2QT7spRxQ2-eVe5dKq4dBoja3nqIT8i8a7AUIju66IihIPTF9WGsEQLUj2Uzyd4TBE3UM',
+    image: '/images/Thunder.jpg',
     description: {
       en: 'THUNDER is the electric heartbeat of the group. With her bold violet hair and sharp, high-energy performance style, she brings the "storm" to the stage. Her rap and dance skills are as striking as a lightning bolt, providing a powerful contrast to the group’s melodies. She embodies the intensity and excitement of an unpredictable weather phenomenon.',
       ko: '썬더는 그룹의 짜릿한 심장박동입니다. 대담한 바이올렛 헤어와 날카롭고 에너지 넘치는 퍼포먼스 스타일로 무대에 "폭풍"을 몰고 옵니다. 그녀의 랩과 댄스 실력은 번개처럼 강렬하여 그룹의 멜로디와 강력한 대조를 이룹니다. 그녀는 예측 불가능한 기상 현상의 강렬함과 흥분을 구현합니다.'
@@ -378,9 +378,13 @@ const Navbar = ({ lang, setLang }: { lang: Language, setLang: (l: Language) => v
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="text-2xl font-serif text-primary tracking-tight"
+          className="flex items-center"
         >
-          Weather Idols
+          <img
+            src="/images/logo.png"
+            alt="Weather Idols"
+            className="h-12 w-12 object-contain"
+          />
         </motion.div>
 
         {/* Desktop Menu */}
