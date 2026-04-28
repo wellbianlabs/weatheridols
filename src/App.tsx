@@ -12,6 +12,7 @@ import {
   Globe,
   ExternalLink
 } from 'lucide-react';
+import PlanningTestPage from './PlanningTestPage';
 
 // --- Types ---
 type Language = 'ko' | 'en';
@@ -1038,6 +1039,10 @@ const Footer = ({ lang }: { lang: Language }) => {
 
 export default function App() {
   const [lang, setLang] = useState<Language>('ko');
+
+  if (window.location.pathname === '/planning-test') {
+    return <PlanningTestPage />;
+  }
 
   return (
     <div className="min-h-screen selection:bg-primary-container selection:text-on-primary-container">
